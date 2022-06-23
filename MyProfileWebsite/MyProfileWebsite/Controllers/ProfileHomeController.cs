@@ -4,11 +4,11 @@ using System.Diagnostics;
 
 namespace MyProfileWebsite.Controllers
 {
-    public class HomeController : Controller
+    public class ProfileHomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<ProfileHomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public ProfileHomeController(ILogger<ProfileHomeController> logger)
         {
             _logger = logger;
         }
